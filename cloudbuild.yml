@@ -14,7 +14,7 @@ steps:
           export SNYK_TOKEN
           mvn snyk:test -fn 
     id: Snyk SCA
-    - name: 'ubuntu'
+  - name: 'ubuntu'
     entrypoint: bash
     args: 
       - '-c'
